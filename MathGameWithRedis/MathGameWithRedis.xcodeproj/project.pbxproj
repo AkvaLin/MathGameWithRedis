@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6653D6C2AE7F01E00A62E23 /* MathGameWithRedisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D6B2AE7F01E00A62E23 /* MathGameWithRedisApp.swift */; };
+		F6653D6E2AE7F01E00A62E23 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D6D2AE7F01E00A62E23 /* GameView.swift */; };
+		F6653D702AE7F02000A62E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6653D6F2AE7F02000A62E23 /* Assets.xcassets */; };
+		F6653D732AE7F02000A62E23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6653D722AE7F02000A62E23 /* Preview Assets.xcassets */; };
+		F6653D7C2AE7F14500A62E23 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D7B2AE7F14500A62E23 /* GameViewModel.swift */; };
+		F6653D802AE7FA0000A62E23 /* AnswerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D7F2AE7FA0000A62E23 /* AnswerButton.swift */; };
+		F6653D852AE7FD5400A62E23 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D842AE7FD5400A62E23 /* ButtonModel.swift */; };
+		F6653D882AE8063600A62E23 /* SwiftRedis in Frameworks */ = {isa = PBXBuildFile; productRef = F6653D872AE8063600A62E23 /* SwiftRedis */; };
+		F6653D8B2AE8065F00A62E23 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D8A2AE8065F00A62E23 /* MainMenuView.swift */; };
+		F6653D8F2AE80F2F00A62E23 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6653D8E2AE80F2F00A62E23 /* MainViewModel.swift */; };
+		F6DD77892AE81905004B63F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD77882AE81905004B63F5 /* SettingsView.swift */; };
+		F6DD778F2AE822E5004B63F5 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD778E2AE822E5004B63F5 /* LeaderboardView.swift */; };
+		F6DD77912AE82305004B63F5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD77902AE82305004B63F5 /* UserModel.swift */; };
+		F6DD77942AE82344004B63F5 /* LeaderboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DD77932AE82344004B63F5 /* LeaderboardViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6653D682AE7F01E00A62E23 /* MathGameWithRedis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathGameWithRedis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6653D6B2AE7F01E00A62E23 /* MathGameWithRedisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameWithRedisApp.swift; sourceTree = "<group>"; };
+		F6653D6D2AE7F01E00A62E23 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F6653D6F2AE7F02000A62E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6653D722AE7F02000A62E23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6653D7B2AE7F14500A62E23 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		F6653D7F2AE7FA0000A62E23 /* AnswerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerButton.swift; sourceTree = "<group>"; };
+		F6653D842AE7FD5400A62E23 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		F6653D8A2AE8065F00A62E23 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		F6653D8E2AE80F2F00A62E23 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		F6DD77882AE81905004B63F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F6DD778E2AE822E5004B63F5 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		F6DD77902AE82305004B63F5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		F6DD77932AE82344004B63F5 /* LeaderboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6653D652AE7F01E00A62E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6653D882AE8063600A62E23 /* SwiftRedis in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6653D5F2AE7F01E00A62E23 = {
+			isa = PBXGroup;
+			children = (
+				F6653D6A2AE7F01E00A62E23 /* MathGameWithRedis */,
+				F6653D692AE7F01E00A62E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6653D692AE7F01E00A62E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D682AE7F01E00A62E23 /* MathGameWithRedis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6653D6A2AE7F01E00A62E23 /* MathGameWithRedis */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D7D2AE7F8A900A62E23 /* Modules */,
+				F6653D6B2AE7F01E00A62E23 /* MathGameWithRedisApp.swift */,
+				F6653D6F2AE7F02000A62E23 /* Assets.xcassets */,
+				F6653D712AE7F02000A62E23 /* Preview Content */,
+			);
+			path = MathGameWithRedis;
+			sourceTree = "<group>";
+		};
+		F6653D712AE7F02000A62E23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D722AE7F02000A62E23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6653D7D2AE7F8A900A62E23 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D892AE8064600A62E23 /* MainMenu */,
+				F6653D7E2AE7F8F100A62E23 /* Game */,
+				F6DD77872AE818F0004B63F5 /* Settings */,
+				F6DD778A2AE822C0004B63F5 /* Leaderboard */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F6653D7E2AE7F8F100A62E23 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D812AE7FD2F00A62E23 /* Views */,
+				F6653D822AE7FD3700A62E23 /* ViewModels */,
+				F6653D832AE7FD4200A62E23 /* Models */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		F6653D812AE7FD2F00A62E23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D6D2AE7F01E00A62E23 /* GameView.swift */,
+				F6653D7F2AE7FA0000A62E23 /* AnswerButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6653D822AE7FD3700A62E23 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D7B2AE7F14500A62E23 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6653D832AE7FD4200A62E23 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D842AE7FD5400A62E23 /* ButtonModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6653D892AE8064600A62E23 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D8D2AE8066700A62E23 /* Views */,
+				F6653D8C2AE8066200A62E23 /* ViewModels */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		F6653D8C2AE8066200A62E23 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D8E2AE80F2F00A62E23 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6653D8D2AE8066700A62E23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6653D8A2AE8065F00A62E23 /* MainMenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F6DD77872AE818F0004B63F5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD77882AE81905004B63F5 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F6DD778A2AE822C0004B63F5 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD778D2AE822D8004B63F5 /* Views */,
+				F6DD778C2AE822D3004B63F5 /* ViewModels */,
+				F6DD778B2AE822CD004B63F5 /* Models */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		F6DD778B2AE822CD004B63F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD77902AE82305004B63F5 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6DD778C2AE822D3004B63F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD77932AE82344004B63F5 /* LeaderboardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F6DD778D2AE822D8004B63F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F6DD778E2AE822E5004B63F5 /* LeaderboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6653D672AE7F01E00A62E23 /* MathGameWithRedis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6653D762AE7F02000A62E23 /* Build configuration list for PBXNativeTarget "MathGameWithRedis" */;
+			buildPhases = (
+				F6653D642AE7F01E00A62E23 /* Sources */,
+				F6653D652AE7F01E00A62E23 /* Frameworks */,
+				F6653D662AE7F01E00A62E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathGameWithRedis;
+			packageProductDependencies = (
+				F6653D872AE8063600A62E23 /* SwiftRedis */,
+			);
+			productName = MathGameWithRedis;
+			productReference = F6653D682AE7F01E00A62E23 /* MathGameWithRedis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6653D602AE7F01E00A62E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F6653D672AE7F01E00A62E23 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F6653D632AE7F01E00A62E23 /* Build configuration list for PBXProject "MathGameWithRedis" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6653D5F2AE7F01E00A62E23;
+			packageReferences = (
+				F6653D862AE8063600A62E23 /* XCRemoteSwiftPackageReference "Kitura-redis" */,
+			);
+			productRefGroup = F6653D692AE7F01E00A62E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6653D672AE7F01E00A62E23 /* MathGameWithRedis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6653D662AE7F01E00A62E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6653D732AE7F02000A62E23 /* Preview Assets.xcassets in Resources */,
+				F6653D702AE7F02000A62E23 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6653D642AE7F01E00A62E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6653D8F2AE80F2F00A62E23 /* MainViewModel.swift in Sources */,
+				F6DD77892AE81905004B63F5 /* SettingsView.swift in Sources */,
+				F6653D8B2AE8065F00A62E23 /* MainMenuView.swift in Sources */,
+				F6653D802AE7FA0000A62E23 /* AnswerButton.swift in Sources */,
+				F6DD778F2AE822E5004B63F5 /* LeaderboardView.swift in Sources */,
+				F6653D6E2AE7F01E00A62E23 /* GameView.swift in Sources */,
+				F6DD77942AE82344004B63F5 /* LeaderboardViewModel.swift in Sources */,
+				F6653D852AE7FD5400A62E23 /* ButtonModel.swift in Sources */,
+				F6653D6C2AE7F01E00A62E23 /* MathGameWithRedisApp.swift in Sources */,
+				F6DD77912AE82305004B63F5 /* UserModel.swift in Sources */,
+				F6653D7C2AE7F14500A62E23 /* GameViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F6653D742AE7F02000A62E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6653D752AE7F02000A62E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6653D772AE7F02000A62E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathGameWithRedis/Preview Content\"";
+				DEVELOPMENT_TEAM = 5374B32457;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vdc.MathGameWithRedis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6653D782AE7F02000A62E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MathGameWithRedis/Preview Content\"";
+				DEVELOPMENT_TEAM = 5374B32457;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vdc.MathGameWithRedis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6653D632AE7F01E00A62E23 /* Build configuration list for PBXProject "MathGameWithRedis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6653D742AE7F02000A62E23 /* Debug */,
+				F6653D752AE7F02000A62E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6653D762AE7F02000A62E23 /* Build configuration list for PBXNativeTarget "MathGameWithRedis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6653D772AE7F02000A62E23 /* Debug */,
+				F6653D782AE7F02000A62E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F6653D862AE8063600A62E23 /* XCRemoteSwiftPackageReference "Kitura-redis" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Kitura-redis";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.200;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F6653D872AE8063600A62E23 /* SwiftRedis */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F6653D862AE8063600A62E23 /* XCRemoteSwiftPackageReference "Kitura-redis" */;
+			productName = SwiftRedis;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F6653D602AE7F01E00A62E23 /* Project object */;
+}
